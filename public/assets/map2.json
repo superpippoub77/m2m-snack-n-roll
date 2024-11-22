@@ -8,6 +8,19 @@
 	"tilewidth": 32,
 	"tileheight": 32,
 	"infinite": false,
+"tilesets": [
+		{
+			"firstgid": 1,
+			"name": "tiles",
+			"tilewidth": 32,
+			"tileheight": 32,
+			"tilecount": 10,
+			"columns": 10,
+			"image": "tiles.webp",
+			"imagewidth": 320,
+			"imageheight": 32
+		}
+	],	
 	"layers": [
 		{
 			"type": "tilelayer",
