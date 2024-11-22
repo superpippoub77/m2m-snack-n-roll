@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Game from './game/Game';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => {
+  // useEffect(() => {
+  //   // Crea il gioco quando il componente viene montato
+  //   const gameConfig: Phaser.Types.Core.GameConfig = {
+  //     type: Phaser.AUTO,
+  //     width: 800,
+  //     height: 600,
+  //     physics: {
+  //       default: 'arcade',
+  //       arcade: {
+  //         gravity: { y: 500, x: 0 }, // Gravità per il movimento
+  //       },
+  //     },
+  //     scene: MainScene, // Usa la scena principale
+  //   };
+
+  //   new Phaser.Game(gameConfig); // Crea il gioco
+
+  //   return () => {
+  //     // Distruggi il gioco quando il componente viene smontato
+  //     //Phaser.Game.GlobalSceneManager.destroy();
+  //   };
+  // }, []);
+
+  return <Game />
+};
 
 export default App;

@@ -1,0 +1,110 @@
+{
+	"version": "1.9",
+	"tiledversion": "1.9.2",
+	"orientation": "orthogonal",
+	"renderorder": "right-down",
+	"width": 30,
+	"height": 20,
+	"tilewidth": 32,
+	"tileheight": 32,
+	"infinite": false,
+	"layers": [
+		{
+			"type": "tilelayer",
+			"name": "Background",
+			"data": []
+		},
+		{
+			"type": "tilelayer",
+			"name": "Platforms",
+			"data": [
+				0,
+				0,
+				1,
+				1,
+				0,
+				0,
+				1,
+				0,
+				1,
+				0,
+				1,
+				1,
+				0,
+				0,
+				0,
+				1,
+				0,
+				1,
+				0,
+				1,
+				1,
+				1,
+				0,
+				0,
+				1,
+				0,
+				1,
+				0,
+				1,
+				0,
+				1,
+				0,
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "objectgroup",
+			"name": "Objects",
+			"objects": [
+				{
+					"id": 1,
+					"x": 200,
+					"y": 150,
+					"width": 32,
+					"height": 32,
+					"type": "Vanilla"
+				},
+				{
+					"id": 2,
+					"x": 400,
+					"y": 300,
+					"width": 32,
+					"height": 32,
+					"type": "Flour"
+				},
+				{
+					"id": 3,
+					"x": 600,
+					"y": 450,
+					"width": 32,
+					"height": 32,
+					"type": "Butter"
+				},
+				{
+					"id": 4,
+					"x": 800,
+					"y": 200,
+					"width": 32,
+					"height": 32,
+					"type": "Honey"
+				},
+				{
+					"id": 5,
+					"x": 1000,
+					"y": 350,
+					"width": 32,
+					"height": 32,
+					"type": "Nuts"
+				}
+			]
+		}
+	]
+}
