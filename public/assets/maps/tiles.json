@@ -1,0 +1,9 @@
+{
+   "name": "tiles",
+   "tilewidth": 32,
+   "tileheight": 32,
+   "columns": 10,
+   "image": "tiles.webp",
+   "imagewidth": 320,
+   "imageheight": 32
+}
